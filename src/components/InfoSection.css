@@ -1,0 +1,62 @@
+.info-section {
+    color: white;
+  
+  }
+  
+  h1 {
+    font-size: 1.9em;
+    margin-bottom: 20px;
+  }
+  .cards{
+      display: flex;
+      flex-direction: column;
+      
+
+  }
+  @media only screen and (max-width:1000px) {
+    .cards {
+      display: none;
+    }
+  }
+  
+  #Drag,#prototype{
+    justify-content: center;
+    position: relative;
+    left:250px;
+  }
+  #personal{
+    left:30px;
+  }
+ #Drag,#prototype,#personal{
+  justify-content: center;
+  position: relative;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  margin: 20px;
+ }
+  
+  .partners {
+    margin-top: 20px;
+ 
+ 
+   color: rgba(228, 228, 228, 0.759);
+   font-weight: bold;
+   
+  }
+  
+  .partners img {
+    width: 300px;
+  }
+  #logo{
+    height: 30px;
+    filter: invert(10%) brightness(1000%);
+  }
+
+.brand>img{
+  filter: invert(10%) brightness(1000%);
+  width: 80px;  
+  height: auto;
+  padding-right: 40px;
+  margin-left: 70px;
+}
